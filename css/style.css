@@ -1,0 +1,80 @@
+body {
+    background-color: #bce4f6;
+    color: #4761a9;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.flex-container {
+    background-color: aquamarine;
+    display: flex;
+    font-weight: bolder;
+    padding: 30px 0;
+    align-items: right;
+    justify-content: right;
+}
+
+.about{
+    background-color: aqua;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 30px;
+    margin-right: auto;
+}
+
+.about span{
+    background: rgb(119, 119, 237);
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+.resume, .projects, .contact{
+    background-color: lightpink;
+    border-right: 2px solid black;
+    padding: 10px 20px;
+}
+
+
+
+.container {
+    background-color: red;
+    padding: 200px;
+    padding-top:100px;
+}
+
+.image{
+    padding: 0;
+    border-radius: 50%;
+    margin: 20px;
+    width: 40%;
+    float: left;
+}
+
+.section{
+    background-color: rgb(125, 199, 125);
+    float: right;
+    padding: 100px 0;
+    width: 50%; 
+}
+
+.click-btn {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+footer{
+    clear: both;
+    margin-top: auto;
+    background-color: plum;
+}
